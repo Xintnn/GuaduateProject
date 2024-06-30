@@ -1,0 +1,33 @@
+#ifndef __BEEP_H
+#define __BEEP_H	 
+#include "sys.h" 
+//////////////////////////////////////////////////////////////////////////////////	 
+//STM32F4工程模板-库函数版本
+//淘宝店铺：http://mcudev.taobao.com								  
+////////////////////////////////////////////////////////////////////////////////// 
+
+//LED端口定义
+#define beep1 PAout(9)	// 蜂鸣器控制IO 
+
+void beep_Init(void);
+int  beep_on(void);
+int beep_off(void);//初始化		 				    
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
